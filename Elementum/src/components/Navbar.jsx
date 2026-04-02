@@ -21,24 +21,23 @@ export default function Navbar() {
         </div>
 
         {/** Svg Icon */}
-        <div>
+         {/* Mobile menu button */}
+        <button
+          className=" focus:outline-none text-gray-700"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+             <div>
             <img
             src="/bars.png"
             width={26}
             height={26}
             />
         </div>
-
-        {/* Mobile menu button */}
-        <button
-          className="md:hidden focus:outline-none text-gray-700"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
         </button>
       </div>
+       
+
+       
 
       {/* Mobile Menu (collapsible) */}
       {isOpen && (
