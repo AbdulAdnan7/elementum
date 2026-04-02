@@ -2,7 +2,7 @@ import React from "react";
 
 const Steps = () => {
   return (
-    <section className="relative min-h-screen px-6 md:px-10 py-24 overflow-x-hidden mt-20">
+    <section className="absolute min-h-screen px-6 md:px-10 py-24 overflow-x-hidden mt-20">
       <div className="ml-20  grid grid-cols-2">
         <div className="flex flex-col mt-20">
           <h1 className="font-sans font-normal text-[50px] leading-[76px] tracking-normal max-w-4xl ">
