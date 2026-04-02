@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import ImageTextSection from './components/ImageTextSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
     <Navbar />
      <Hero />
+
     </>
   )
 }

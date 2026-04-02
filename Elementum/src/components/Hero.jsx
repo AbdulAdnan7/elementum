@@ -1,8 +1,9 @@
+import ImageTextSection from "./ImageTextSection";
+
 export default function Hero() {
   return (
-    <section className="relative min-h-screen px-6 md:px-10 py-24 text-center overflow-hidden">
+    <section className="relative min-h-screen px-6 md:px-10 py-24 text-center overflow-x-hidden">
       {/** Left vertical lines */}
-      {/* Two curves: red attached to left edge, dark beside it */}
       <div
         className="absolute hidden lg:flex mt-42"
         style={{
@@ -102,6 +103,10 @@ export default function Hero() {
           refuse to play things safe.
         </p>
       </div>
+     <div className="mt-40 absolute w-full h-[800px]">
+      <ImageTextSection />
+
+     </div>
     </section>
   );
 }
