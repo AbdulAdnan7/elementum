@@ -2,7 +2,7 @@ import ImageTextSection from "./ImageTextSection";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen px-6 md:px-10 py-24 text-center overflow-none overflow-x-hidden overflow-y-hidden">
+    <section className="relative min-h-screen px-6 md:px-10 py-24 text-center">
       {/** Left vertical lines */}
       <div
         className="absolute hidden lg:flex mt-42"
