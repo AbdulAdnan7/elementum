@@ -103,7 +103,7 @@ export default function Hero() {
           refuse to play things safe.
         </p>
       </div>
-     <div className="mt-40 absolute w-full h-[800px]">
+     <div className="mt-40 absolute w-full">
       <ImageTextSection />
 
      </div>

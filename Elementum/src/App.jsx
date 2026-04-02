@@ -6,6 +6,7 @@ import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import ImageTextSection from './components/ImageTextSection'
+import Steps from './components/Steps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
     <>
     <Navbar />
      <Hero />
-
+     <Steps />
     </>
   )
 }
