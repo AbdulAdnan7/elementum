@@ -67,10 +67,15 @@ const Steps = () => {
               className="absolute top-1/4 left-4 -translate-y-1/2 -translate-x-1/2 w-16 sm:w-24 md:w-40 z-0"
               alt="polygon"
             />
-            <img
-            src="/Triangle.png"
-            className="absolute z-50 left-68 top-70 sm:w-24 md:w-40"
-            />
+           <img
+  src="/Triangle.png"
+  className="absolute z-50 
+             left-1/2 top-1/2 
+             -translate-x-1/2 -translate-y-1/2
+             w-16 sm:w-24 md:w-34 lg:w-40 md:left-[14rem] md:top-[14rem]
+             lg:left-[22rem] lg:top-[22rem]"
+  alt="Triangle"
+/>
             {/* F1 */}
             <img
               src="/images/F1.png"
