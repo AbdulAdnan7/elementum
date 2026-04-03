@@ -3,20 +3,24 @@ import React from "react";
 const Steps = () => {
   return (
     <section className="relative min-h-screen px-6 md:px-10 lg:py-94">
+
+      <div className="absolute top-[25%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full" />
       <img
         src="/String2.svg"
         alt="decorative string"
         className="
         absolute 
-        top-[02%]
-        left-[40%]
+        w-[220%]
+        top-[04%]
+        left-[0%]
         md:top-[36%] 
         md:left-[16%] 
-        w-[90%]
+        md:w-[90%]
        -z-10 
        pointer-events-none
   "
       />
+
 
       {/* -------- FIRST SECTION -------- */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:ml-20 items-center">
@@ -26,7 +30,7 @@ const Steps = () => {
             {/* Polygon behind */}
             <img
               src="/images/polygon3.png"
-              className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-16 sm:w-24 md:w-40 z-0"
+              className="absolute top-[14%] right-0 -translate-y-1/2 translate-x-1/2 w-16 sm:w-24 md:w-40 z-0"
               alt="polygon"
             />
             {/* F2 */}
