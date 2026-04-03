@@ -3,10 +3,23 @@ import React from "react";
 const Steps = () => {
   return (
     <section className="relative min-h-screen px-6 md:px-10 lg:py-94">
+      <img
+        src="/String2.svg"
+        alt="decorative string"
+        className="
+        absolute 
+        top-[02%]
+        left-[40%]
+        md:top-[36%] 
+        md:left-[16%] 
+        w-[90%]
+       -z-10 
+       pointer-events-none
+  "
+      />
 
       {/* -------- FIRST SECTION -------- */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:ml-20 items-center">
-        
         {/* IMAGE */}
         <div className="flex justify-center order-1 md:order-2">
           <div className="relative md:ml-20">
@@ -50,14 +63,17 @@ const Steps = () => {
 
           <div className="mt-10 flex items-center gap-3 flex-wrap">
             <p className="font-medium text-[20px]">Read More</p>
-            <img src="/images/Arrow.png" className="w-24 md:w-[144px]" alt="Arrow" />
+            <img
+              src="/images/Arrow.png"
+              className="w-24 md:w-[144px]"
+              alt="Arrow"
+            />
           </div>
         </div>
       </div>
 
       {/* -------- SECOND SECTION (Image left, text right) -------- */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10 items-center">
-        
         {/* IMAGE */}
         <div className="flex justify-center order-1 md:order-1">
           <div className="relative md:mr-20">
@@ -67,15 +83,15 @@ const Steps = () => {
               className="absolute top-1/4 left-4 -translate-y-1/2 -translate-x-1/2 w-16 sm:w-24 md:w-40 z-0"
               alt="polygon"
             />
-           <img
-  src="/Triangle.png"
-  className="absolute z-50 
+            <img
+              src="/Triangle.png"
+              className="absolute z-50 
              left-1/2 top-1/2 
              -translate-x-1/2 -translate-y-1/2
              w-16 sm:w-24 md:w-34 lg:w-40 md:left-[14rem] md:top-[14rem]
              lg:left-[22rem] lg:top-[22rem]"
-  alt="Triangle"
-/>
+              alt="Triangle"
+            />
             {/* F1 */}
             <img
               src="/images/F1.png"
@@ -88,7 +104,8 @@ const Steps = () => {
         {/* TEXT */}
         <div className="flex flex-col order-2 md:order-2 lg:mt-20">
           <h1 className="font-sans font-normal text-3xl sm:text-3xl md:text-4xl lg:text-[50px] leading-tight max-w-4xl">
-            <span className="bg-[#D7EEDD] px-3 py-1 rounded-full">See</span> how we can <br /> help you{" "}
+            <span className="bg-[#D7EEDD] px-3 py-1 rounded-full">See</span> how
+            we can <br /> help you{" "}
             <span className="relative inline-block">
               Progress{" "}
               <img
@@ -108,7 +125,11 @@ const Steps = () => {
 
           <div className="mt-10 flex items-center gap-3 flex-wrap">
             <p className="font-medium text-[20px]">Read More</p>
-            <img src="/images/Arrow.png" className="w-24 md:w-[144px]" alt="Arrow" />
+            <img
+              src="/images/Arrow.png"
+              className="w-24 md:w-[144px]"
+              alt="Arrow"
+            />
           </div>
         </div>
       </div>
