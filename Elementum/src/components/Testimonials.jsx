@@ -1,10 +1,11 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Testimonials = () => {
   return (
-    <section className="relative mt-10 md:mt-40">
-      <div className="">
-        <h1 className="text-xs md:text-4xl text-center font-sans ">
+      <section className="relative mt-20 md:mt-32 lg:mt-48 pb-16 md:pb-24 lg:pb-3">
+      <div className="m-4">
+        <h1 className="text-xs md:text-4xl text-center font-sans">
           <span className="bg-[#D7EEDD] px-2 py-1  md:px-3 md:py-2 rounded-full">
             What
           </span>{" "}
@@ -41,6 +42,7 @@ const Testimonials = () => {
       <div className="absolute hidden md:block inset-0">
         <img src="/testimonial.png" />
       </div>
+
     </section>
   );
 };

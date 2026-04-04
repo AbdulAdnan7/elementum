@@ -3,8 +3,9 @@ import Offerings from "./Offerings";
 
 const Steps = () => {
   return (
-    <section className="relative px-6 md:px-10 lg:py-144">
+     <section className="relative px-6 md:px-10 mt-2 md:mt-48 lg:mt-124">
 
+     {/** FOr first background string */}
       <div className="absolute hidden md:block top-[28%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full -z-20" />
       <img
         src="/String2.svg"
@@ -139,7 +140,6 @@ const Steps = () => {
         </div>
       </div>
 
-      <Offerings />
     </section>
   );
 };

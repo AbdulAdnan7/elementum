@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import ImageTextSection from "./components/ImageTextSection";
 import Steps from "./components/Steps";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +17,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <ImageTextSection />
       <Steps />
+      <Testimonials />
+      <Footer />
     </>
   );
 }

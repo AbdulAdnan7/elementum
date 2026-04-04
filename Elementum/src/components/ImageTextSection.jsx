@@ -26,20 +26,20 @@ const images = [
 
 const ImageTextSection = () => {
   return (
-    <div className="hidden lg:block">
+    <div className="hidden lg:block relative">
       {images.map((img, i) => {
-        // default style
+      {/** FOr default style */}
         let style = {
           opacity: 1,
           transform: "rotate(0deg)",
         };
 
-        // Apply horizontal gap for 3rd and 4th images
+        {/** TO apply horizontail to 2 & 3, left and right shift */}
         if (i === 2) {
-          style.transform = "translateX(-50px) rotate(0deg)"; // shift left
+          style.transform = "translateX(-50px) rotate(0deg)";
         }
         if (i === 3) {
-          style.transform = "translateX(60px) rotate(0deg)";  // shift right
+          style.transform = "translateX(60px) rotate(0deg)";  
         }
 
         return (
@@ -51,7 +51,7 @@ const ImageTextSection = () => {
             <img
               src={img}
               alt={`avatar-${i}`}
-              className="sm:w-16 h-16 md:w-[140px] md:h-[140px] lg:w-[190px] lg:h-full object-cover"
+              className="sm:w-16 h-16 md:w-35 md:h-35 lg:w-47.5 lg:h-full object-cover"
             />
           </div>
         );

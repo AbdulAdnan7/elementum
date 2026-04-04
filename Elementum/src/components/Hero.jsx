@@ -2,7 +2,7 @@ import ImageTextSection from "./ImageTextSection";
 
 export default function Hero() {
   return (
-    <section className="relative px-6 md:px-10 py-24 text-center">
+      <section className="relative px-6 md:px-10 py-24 text-center pb-32 md:pb-48 lg:pb-64 overflow-hidden">
       {/** Left vertical lines */}
       <div
         className="absolute hidden lg:flex mt-42"
@@ -96,17 +96,15 @@ export default function Hero() {
           </span>{" "}
           Quo with
         </h1>
-
+        
+        {/** FOr hero paragraph */}
         <p className="text-gray-500 text-base md:text-lg mt-6 max-w-2xl mx-auto">
           We are a team of strategists, designers, communicators, and
           researchers. Together, we believe that progress only happens when you
           refuse to play things safe.
         </p>
       </div>
-     <div className="mt-40 absolute w-full">
-      <ImageTextSection />
-
-     </div>
+    
     </section>
   );
 }
