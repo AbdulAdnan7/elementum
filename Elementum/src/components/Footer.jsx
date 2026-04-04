@@ -22,7 +22,7 @@ const Footer = () => {
           To make you more special and even more memorable
         </p>
 
-        <button className="bg-black px-4 py-2 md:px-8 md:py-4 rounded-full mt-4 text-white">
+        <button className="bg-black px-4 py-2 md:px-8 md:py-4 rounded-full mt-4 text-white transition-colors duration-200">
           Subscribe now
         </button>
         </div>
