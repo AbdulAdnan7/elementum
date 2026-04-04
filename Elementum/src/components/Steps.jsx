@@ -1,12 +1,20 @@
 import React from "react";
 import Offerings from "./Offerings";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const Steps = () => {
+
+    useEffect(() => {
+      AOS.init({ duration: 800, once: true })
+    }, [])
+
   return (
      <section className="relative px-6 md:px-10 mt-2 lg:mt-124">
 
      {/** FOr first background string */}
-      <div className="absolute hidden md:block top-[28%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full -z-20" />
+      <div className="absolute hidden md:block top-[28%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full animate-float -z-20" />
       <img
         src="/String2.svg"
         alt="decorative string"
@@ -25,7 +33,7 @@ const Steps = () => {
 
 
       {/* -------- FIRST SECTION -------- */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:ml-20 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:ml-20 items-center" data-aos="fade-up">
         {/* IMAGE */}
         <div className="flex justify-center order-1 md:order-2">
           <div className="relative md:ml-20">
@@ -68,10 +76,10 @@ const Steps = () => {
           </p>
 
           <div className="mt-10 flex items-center gap-3 flex-wrap">
-            <p className="font-medium text-[20px]">Read More</p>
+            <p className="font-medium text-[20px] transition-transform duration-300 group-hover:translate-x-2">Read More</p>
             <img
               src="/images/Arrow.png"
-              className="w-24 md:w-[144px]"
+              className="w-24 md:w-[144px] transition-transform duration-300 group-hover:translate-x-3"
               alt="Arrow"
             />
           </div>
@@ -79,7 +87,7 @@ const Steps = () => {
       </div>
 
       {/* -------- SECOND SECTION (Image left, text right) -------- */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10 items-center" data-aos="fade up">
         {/* IMAGE */}
         <div className="flex justify-center order-1 md:order-1">
           <div className="relative md:mr-20">

@@ -53,7 +53,7 @@ const Offerings = () => {
         <img
           src="/String.svg"
           alt="Offerings illustration"
-          className="w-full mx-auto md:ml-30 -mt-20 md:-mt-60"
+          className="hidden md:block w-full mx-auto md:ml-30 -mt-20 md:-mt-60"
         />
       </div>
 
@@ -123,7 +123,6 @@ const Offerings = () => {
         ))}
       </div>
 
-      <Testimonials />
     </section>
   );
 };

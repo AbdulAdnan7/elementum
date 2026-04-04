@@ -9,6 +9,7 @@ import ImageTextSection from "./components/ImageTextSection";
 import Steps from "./components/Steps";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Offerings from "./components/Offerings";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <ImageTextSection />
       <Steps />
+      <Offerings />
       <Testimonials />
       <Footer />
     </>
