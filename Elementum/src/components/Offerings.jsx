@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Testimonials from "./Testimonials";
 
 const Offerings = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -121,6 +122,8 @@ const Offerings = () => {
           </div>
         ))}
       </div>
+
+      <Testimonials />
     </section>
   );
 };
