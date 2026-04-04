@@ -1,10 +1,11 @@
 import React from "react";
+import Offerings from "./Offerings";
 
 const Steps = () => {
   return (
-    <section className="relative min-h-screen px-6 md:px-10 lg:py-94">
+    <section className="relative px-6 md:px-10 lg:py-144">
 
-      <div className="absolute top-[25%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full" />
+      <div className="absolute hidden md:block top-[28%] left-[48%] w-[200px] h-[200px] bg-red-400 opacity-100 blur-[120px] rounded-full -z-20" />
       <img
         src="/String2.svg"
         alt="decorative string"
@@ -13,7 +14,7 @@ const Steps = () => {
         w-[220%]
         top-[04%]
         left-[0%]
-        md:top-[36%] 
+        md:top-[28%] 
         md:left-[16%] 
         md:w-[90%]
        -z-10 
@@ -137,6 +138,8 @@ const Steps = () => {
           </div>
         </div>
       </div>
+
+      <Offerings />
     </section>
   );
 };
